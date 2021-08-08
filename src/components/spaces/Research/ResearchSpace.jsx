@@ -24,37 +24,24 @@ export default class ResearchSpace extends Component {
             <p>
               With accumulation of practice and knowledge in computer science and machine learning,
               I became interested in natural language processing (NLP) research. Within NLP I am interested in 
-              <b> learning structural information from language</b> and 
-              <b> augmenting language technologies with structural information.</b> 
+              <b> learning structural/hierarchical information from language</b> and 
+              <b> improving language technology with biologically plausible algorithms</b> 
             </p>  
             <p>
               <b>Inducing structural information</b> is important because it allows us to access the information
               programmatically, as well as using established fields of research to derive insights. 
               From semantic parsing (the process of parsing natural language sentences into 
               logical forms) to meta-structure induction such as 
-              dialog planning, I am interested in using statistical methods (neural nets, 
-              probabilistic models) to learn such structures from language. I believe structure
-              holds the key to generalization in language technologies. After all, humans are just
-              manipulating sets of grammatical rules and heuristics to generate what we say. 
+              dialog planning, I am interested in using statistical methods to learn such structures
+              from language. I believe structure holds the key to generalization in language technologies. 
+              After all, humans are just manipulating sets of grammatical rules and heuristics to generate what we say. 
             </p>
             <p>
-              <b>Augmenting language technologies with (structural) knowledge</b> becomes 
-              critical when language technologies lack the access to such data during training or 
-              simply isn't equipped to deal with non-textual information. How will a language model know
-              that an orange is circular in shape and may sting if you squeeze the juice into the eye?
-              How will a language model know about a specific company product when such information 
-              is not accessible during training? How do you justify the 
-              <a href="https://en.wikipedia.org/wiki/Trolley_problem" className="obvious-link"> Trolley problem </a> 
-              to a language model so it makes the morally correct decision with complex reasoning? 
-              I am interested in imbuing language technologies using existing knowledge bases to 
-              enhance such decision making.
-            </p>
-            <p>
-              Method-wise, I am interested in interdisciplinary approaches such as <b>neural-symbolic </b> 
-              architectures integrating neural systems (that are amazingly good functional approximators) with 
-              symbolic systems (that are more cognitively grounded). With such interest, I also try to 
-              understand and build language technologies that align with human cognition, which inherently
-              optimizes for efficiency and interpretability.
+              <b>Biologically Plausible Algorithms</b> such as Associative Memory and Locality Sensitive Hashing 
+              are attractive methods grounded with certain amount of biological plausibility. With recent "attention"
+              that Hopfield Network (a form of associative memory model) update is similar to attention mechanism
+              in modern transformer based language models, I am interested in how to additionally strenghten the 
+              link between two fields, in turn build better and more interpretable models.
             </p>
             <Row className="justify-content-md-center">
               <h4>Publications</h4>  
@@ -76,11 +63,7 @@ export default class ResearchSpace extends Component {
             <Row className="justify-content-md-center">
               <h4>In Review</h4>
             </Row>
-              <Publication 
-                  title="Discrete Word Embedding for Logical Natural Language Understanding" 
-                  authors={["Z Tang", "M Asai"]}
-                  conference="NAACL 2021"
-                  awards="" />
+              <p>Coming Soon!</p>
             <Row className="justify-content-md-center">
             <h4>Presentations & Posters</h4>  
             </Row>

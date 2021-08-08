@@ -39,14 +39,16 @@ export default class About extends Component {
               details of the projects in <Link to="/tech" className="obvious-link"><b>Tech Space</b></Link>.
               </p>
               <p>
-              I am currently a research engineer at IBM Research Cambridge Lab. During my 
+              I worked as a research engineer at IBM Research Cambridge Lab. During my 
               time here, I have worked on industry grade chatbot systems (Watson Assistant), 
               Machine learning deployment and monitoring platform for fairness, drift and
               explanation (Watson Openscale), and many reserach products including a 
-              multi-agent orchestrating platform, and a automated data pre-processing platform
-              which won best demo paper at AAAI 2020. On my own time, I also collaborate with
-              MIT-IBM lab on the side, building neural-symbolic systems in application to 
-              natural language processing. 
+              multi-agent orchestrating platform (now Watson Orchestrate), and a automated 
+              data pre-processing platform (TraceHub) which won best demo paper at AAAI 2020. 
+              On my own time, I also collaborate with MIT-IBM Watson AI lab, building 
+              neural-symbolic systems in application to natural language processing (NLP). 
+              I am also interested in applying biologically plausible networks to NLP, such 
+              as associative networks.
               </p>
           </Row>
          </Col>

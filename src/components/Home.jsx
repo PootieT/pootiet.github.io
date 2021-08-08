@@ -33,11 +33,10 @@ export default class Home extends Component {
               life can become with the help of technology. Not only can augmentation be in the form of physical devices, 
               such as brain-wave controlled exoskeletons, but also software technologies. I am interested in all 
               of the above. I not only want to make people's lives easier, but I also want to re-imagine what we
-              can achieve and be with more technology enabled capabilities (such as having a virtual assistant 
-              called Jarvis that knows everything and helps you fly around in an Iron man suite)</p>
+              can achieve and be with more technology enabled capabilities.</p>
               <p>Most recently, I am interested in natural language processing (NLP) research. Specifically, in 
-              <b> learning structure from language</b> and <b>augment language technologies with existing (structured) 
-              knowledge</b>. Find out more in my bio!</p>
+                the application of biologically plausible neural networks (such as associative memory) to 
+                state-of-art language models. Find out more in my bio!</p>
               <p>I am also interested in many other things. You will find a lot of them in an individual <b>space</b>. If you 
               have similar interest in any of them, or want to build something cool based on them, I am all ears.</p>
               <p>More bio <Link to="/about" className="obvious-link"><b>here</b></Link>, and contact me <Link to="/connect" className="obvious-link"><b>here</b></Link></p>
@@ -47,8 +46,11 @@ export default class Home extends Component {
         <hr/>
         <Jumbotron>
           <h1>News</h1>
+          <ul>I presented <i>"Discrete Word Embedding"</i> at <a href="https://sites.google.com/view/cogsci2021-bc-meetup/schedule/informal-presentations?authuser=0">
+            CogSci 2021 Boston-Cambridge Meetup</a> (07/28/2021). Nice to present in person again!</ul>
           <ul>I won 2nd place and best posing award at Granite State Open natural bodybuilding show. (10/23/2020)</ul>
-          <ul>I presented <i>"Discrete Word Embedding"</i> at KEPS Workshop (ICAPS 2020) (10/22/2020)</ul>
+          <ul>I presented <i>"Discrete Word Embedding"</i> at <a href="https://icaps20subpages.icaps-conference.org/workshops/keps/">
+            KEPS Workshop (ICAPS 2020)</a> (10/22/2020)</ul>
           <ul>Our group paper "TraceHub" won Best Demo at AAAI 2020 (2/12/2020)</ul>
         </Jumbotron>
         <hr/>
