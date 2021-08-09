@@ -49,6 +49,11 @@ Random stuff worthy of shit-talking
 - Standup
 
 
+### Deploy Instruction
+```bash
+npm run deploy
+```
+
 # Yarn Instruction on How to Run This
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
