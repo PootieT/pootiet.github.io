@@ -15,8 +15,8 @@ export default class Home extends Component {
             <Col xs={6} sm={6} style={{textAlign:"left"}}>
               <h1>Zilu Tang (Peter)</h1>
               <h5>/tzee-lu, tongue (Peter)/</h5>
-              <p>Research Engineer, IBM</p>
-              <p>Multi-agent Orchestration, NLP, Planning, Human Capability Augmentation</p>
+              <p>Graduate Student, Boston Univeristy</p>
+              <p>Multilingual, low-resource natural langauge processing; Data Augmentation & generation</p>
               <a href="https://scholar.google.com/citations?user=E9g28XEAAAAJ"><Image src="assets/socials/google_scholar.png" circle fluid className="socials-icon"/></a>
               <a href="https://www.linkedin.com/in/peter-tang-83802495/"><Image src="assets/socials/linkedin.png" circle fluid className="socials-icon"/></a>
               <a href="https://github.com/PootieT"><Image src="assets/socials/github.png" circle fluid className="socials-icon"/></a>
@@ -29,27 +29,35 @@ export default class Home extends Component {
           </Row>
           <Row className="show-grid text-center"> 
             <Col xs={12} sm={12} style={{textAlign:"left", paddingTop:"1em"}}>
-              <p>What is <i>human capability augmentation</i>? I have always been fascinated with idealizing what 
-              life can become with the help of technology. Not only can augmentation be in the form of physical devices, 
-              such as brain-wave controlled exoskeletons, but also software technologies. I am interested in all 
-              of the above. I not only want to make people's lives easier, but I also want to re-imagine what we
-              can achieve and be with more technology enabled capabilities.</p>
-              <p>Most recently, I am interested in natural language processing (NLP) research. Specifically, in 
-                the application of biologically plausible neural networks (such as associative memory) to 
-                state-of-art language models. Find out more in my bio!</p>
-              <p>I am also interested in many other things. You will find a lot of them in an individual <b>space</b>. If you 
+              <p>Welcome! Here is my little personal space!</p>
+              <p>I am a Masters' in AI student at Boston University advised by Derry Wijaya. I am interested in a variety of low-resource natural language processing (NLP) tasks.
+                As a guiding principle to my research, I am interested in making the most efficient / clever use of statistical power in pretrained language model as well as
+                symbolic / rule-based human knowledge to improve NLP tasks under resource constraints. I have worked in industrial orchestration / chatbot divisions, machine 
+                translations, general sentence representation learning, and code translation (e.g. Java-Python). More on my research interest <Link to="/research" className="obvious-link"><b>here</b></Link></p>
+              
+              <p>In my spare time, I try to keep up with my gardening hobbies. You will find a lot of them in an individual <b>spaces</b>. If you 
               have similar interest in any of them, or want to build something cool based on them, I am all ears.</p>
-              <p>More bio <Link to="/about" className="obvious-link"><b>here</b></Link>, and contact me <Link to="/connect" className="obvious-link"><b>here</b></Link></p>
+              <p>
+                More bio <Link to="/about" className="obvious-link"><b>here</b></Link>, 
+                and contact me <Link to="/connect" className="obvious-link"><b>here</b></Link>. 
+                See resume <a href="https://drive.google.com/file/d/1qXdeSlgQT8ogbOCrzhneyW6Pc5wEnY48/view?usp=sharing"><b> here</b></a>
+              </p>
             </Col>
           </Row>
         </Jumbotron>
         <hr/>
         <Jumbotron>
           <h1>News</h1>
-          <ul>I presented <i>"Discrete Word Embedding"</i> at <a href="https://sites.google.com/view/cogsci2021-bc-meetup/schedule/informal-presentations?authuser=0">
+          <ul>Invited to present <i>"AugCSE"</i> at Boston University AI-Research Seminar (09/2022)</ul>
+          <ul>Our work on <i>"AugCSE: Contrastive Sentence Embedding with Diverse Augmentation"</i> got accepted in AACL 2022! (09/2022)</ul>
+          <ul>Fresh preprint <a href="https://arxiv.org/abs/2209.03554"><i>"Knowledge-based Template Translation in Low-Resource Setting"</i></a> out <a href="https://sites.google.com/view/cogsci2021-bc-meetup/schedule/informal-presentations?authuser=0">
+            on Arxiv!</a> (09/2022)</ul>
+          <ul>Started my Masters' Degree at Boston University with <a href="https://www.bu.edu/provost/awards-publications/award-opportunities/lu-lingzi-scholarship/">Lu Lingzi full-ride scholarship</a> + stipend! (09/2021)</ul>
+          <ul>I presented <a href="https://arxiv.org/abs/2008.11649"><i>"Discrete Word Embedding"</i></a> at <a href="https://sites.google.com/view/cogsci2021-bc-meetup/schedule/informal-presentations?authuser=0">
             CogSci 2021 Boston-Cambridge Meetup</a> (07/28/2021). Nice to present in person again!</ul>
           <ul>I won 2nd place and best posing award at Granite State Open natural bodybuilding show. (10/23/2020)</ul>
-          <ul>I presented <i>"Discrete Word Embedding"</i> at <a href="https://icaps20subpages.icaps-conference.org/workshops/keps/">
+          <ul>I presented <a href="https://icaps20subpages.icaps-conference.org/wp-content/uploads/2020/10/KEPS-2020_paper_9.pdf"> <i>"Discrete Word Embedding"</i> </a>
+          at <a href="https://icaps20subpages.icaps-conference.org/workshops/keps/">
             KEPS Workshop (ICAPS 2020)</a> (10/22/2020)</ul>
           <ul>Our group paper "TraceHub" won Best Demo at AAAI 2020 (2/12/2020)</ul>
         </Jumbotron>

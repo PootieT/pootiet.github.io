@@ -50,6 +50,17 @@ export default class About extends Component {
               I am also interested in applying biologically plausible networks to NLP, such 
               as associative networks.
               </p>
+              <p>
+              As a (thesis-based) masters' student advised by Derry Wijaya and Yoon Kim (MIT), I have 
+              done a wide range of work in low-resource NLP research. I tempered with template 
+              machine translation methods, improving entity accuracy through behavioral changing 
+              rule injections. I worked on improving general sentence embedding space through 
+              diverse (often rule-based) methods. I am currently working on improving program 
+              translation between low-resource programming languages such as COBOL through 
+              conditional generation and finetuning. I am applying to PhD this fall (2022) with
+              the goal of improving low-resource NLP using large language models. See my research
+              statement and publications <Link to="/research" className="obvious-link"><b>here</b></Link>
+              </p>
           </Row>
          </Col>
         </Jumbotron>       

@@ -24,14 +24,30 @@ export default class Publication extends Component {
     } else {
       webLink = ""
     }
+    let codeLink;
+    if (this.props.codeLink) {
+      codeLink = <a href={this.props.codeLink} style={{color: "var(--global-color-five)"}}> [code]</a>
+    } else {
+      codeLink = ""
+    }
+
+    const getHighlightedText = (text, highlight) => {
+      // Split on highlight term and include term into parts, ignore case
+      const parts = text.split(new RegExp(`(${highlight})`, 'gi'));
+      return <span> { parts.map((part, i) => 
+          <span key={i} style={part.toLowerCase() === highlight.toLowerCase() ? { fontWeight: 'bold' } : {} }>
+              { part }
+          </span>)
+      } </span>;
+    }
 
     return (
       <p>
         <i>{this.props.title}. </i>
-        {this.props.authors.join(", ")}.  
+        {getHighlightedText(this.props.authors.join(", "), "Z Tang")}
         <i> {this.props.conference}. </i>  
         <b>{this.props.awards}</b>
-        {pdfLink}{videoLink}{webLink}
+        {pdfLink}{videoLink}{webLink}{codeLink}
       </p>
     )
   }
