@@ -44,7 +44,7 @@ export default class Publication extends Component {
     return (
       <p>
         <i>{this.props.title}. </i>
-        {getHighlightedText(this.props.authors.join(", "), "Z Tang")}
+        {getHighlightedText(this.props.authors.join(", "), "Z Tang")}.
         <i> {this.props.conference}. </i>  
         <b>{this.props.awards}</b>
         {pdfLink}{videoLink}{webLink}{codeLink}

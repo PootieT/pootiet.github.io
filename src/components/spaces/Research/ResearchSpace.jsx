@@ -19,43 +19,49 @@ export default class ResearchSpace extends Component {
               I am interested in a variety of topics.
               With a background in bioengineering, I come from the field 
               of synthetic biology, bioinformatics (microfluidic imaging), and brain machine
-              interface. 
-            </p>
-            <p>
-              Throughout my time as a research engineer at IBM Research and MIT-IBM Watson 
-              AI lab, I found great importance in adapting existing technilogies for low-resource aplications. 
-              Being in the US as an international student exposed to diverse cultures, I further recognize the 
-              importance of sharing technilogical advancement through developing AI techniques for low-resource 
-              settings.
+              interface. As a research engineer at IBM Research and MIT-IBM Watson 
+              AI lab, I found great importance in adapting existing technologies for low-resource aplications,
+              while working with private datasets, conversational technologies, and planning/automations.
             </p>  
             <p>
-              With the rise of large language models (LLM), my current interest resides in how to take advantage of such 
-              "unhumanly" (scale, and in terms of representation) model, to boostrap low-resource settings. For low
-              resource machine translation for instance, is there a way to induce large language model trained with 
-              internet-scale priror, to generate parallel corpus for languages it has not seen before? 
-              My research interest is closely related to work in conditional / controlled generations, but 
-              also with a twist of inducing compositional behavior in LLMs (through prompting techniques). As soon as we
-              can show the sequence prediction power in LLM can be induce to generate over unseen token with symbolic
-              rules, we can begin to solve many problems where there is not enough data or is infeasible for us to 
-              finetune any model parameters.
+              Most currently, I've been fascinated by all the investigations into how large langauge
+              models (LLMs) works. Though great at solving association tasks and can seem to generalize over
+              unseen domain, these models do not work the same way humans do. My interest lies in understanding 
+              to what degree do models agree with human forms of symbolic learning? How do the two domain differ?
+              And what the two systems can learn from each other? 
+
+              To understand such behavior, I work mostly with low-resource tasks, forcing models to work with 
+              smallest amount of data, and observe patterns that may suggest any type of symbolic learning that 
+              humans do. 
             </p>
-              In addition to using LLM as a generator, I am also interested in how to efficiently distill these knowledge
-              into smaller, more efficient and performant models. LLM generations contain bias and irrelevant information, 
-              so how do we take noise into consideration when training downstream models? Again, many rule-based, unsupervised,
-              semi-supervised techniques here can be used to automatically filter / condition the model to not only learn
-              from large prirors of LLM, but also be efficient, fair, and humanly-aligned when encoding information from
-              "knowlegde of the internet".
 
             <Row className="justify-content-md-center">
               <h4>Publications</h4>  
             </Row>
               <Publication 
+                  title="Explain-then-Translate: an Analysis on Improving Program Translation with Self-Generated Explanation" 
+                  authors={["Z Tang", "M Agarwal", "A Shypula", "B Wang", "D Wijaya", "J Chen", "Y Kim"]}
+                  conference="In Submission"
+                   />
+              <Publication 
+                  title="Effects of #Coronavirus Content Moderation on Misinformation and Anti-Asian Hate on Instagram" 
+                  authors={["T Hong", "Z Tang", "M Lu", "Y Wang", "J Wu", "D Wijaya"]}
+                  conference="New Media & Society 2023"
+                  pdfLink="https://journals.sagepub.com/doi/full/10.1177/14614448231187529/"
+                  />
+              <Publication 
                   title="AugCSE: Contrastive Sentence Embedding with Diverse Augmentations" 
                   authors={["Z Tang", "Y Kocyigit", "D Wijaya"]}
                   conference="AACL-IJCNLP 2022 (Oral)"
                   codeLink="https://github.com/PootieT/AugCSE"
-                  pdfLink="http://arxiv.org/abs/2210.13749"
+                  pdfLink="https://aclanthology.org/2022.aacl-main.30/"
                    />
+              <Publication 
+                  title="Knowledge Based Template Machine Translation In Low-Resource Setting" 
+                  authors={["Z Tang", "D Wijaya"]}
+                  conference="Arxiv 2022"
+                  pdfLink="https://arxiv.org/abs/2209.03554"
+                  />
               <Publication 
                   title="TraceHub-A Platform to Bridge the gap between State-of-the-Art Time-Series Analytics and Datasets" 
                   authors={["S Agarwal", "C Muise", "M Agarwal", "S Upadhyay", "Z Tang", "Z Zeng", "Y Khazaeni"]}
@@ -72,7 +78,7 @@ export default class ResearchSpace extends Component {
                   webLink="https://arxiv.org/abs/2008.11649"
                   awards="" />
 
-            <Row className="justify-content-md-center">
+            {/* <Row className="justify-content-md-center">
             <h4>In Review</h4>
             </Row>
               <Publication 
@@ -85,7 +91,7 @@ export default class ResearchSpace extends Component {
                   title="Effects of #Coronavirus Content Moderation on Misinformation and Anti-Asian Hate on Instagram" 
                   authors={["T Hong", "M Lu", "Z Tang", "Y Wang", "J Wu", "D Wijaya"]}
                   conference=""
-                  />
+                  /> */}
 
             <Row className="justify-content-md-center">
             <h4>Presentations & Posters</h4>  
@@ -124,6 +130,18 @@ export default class ResearchSpace extends Component {
             <h4>Unpublished Work / Class Project</h4>
             </Row>
                 <Publication 
+                    title="Efficient Data Filtering for Finetuning Language Model" 
+                    authors={["Y Kocyigit", "Z Tang"]}
+                    pdfLink="https://github.com/PootieT/efficient-filter-lm-training/blob/main/Efficient%20Filtering%20Methods%20for%20Finetuning%20Language%20Model.pdf"
+                    codeLink="https://github.com/PootieT/efficient-filter-lm-training"
+                    />
+                <Publication 
+                    title="Metropolis-Hasting Sentence Sampling: A Mixup in Natural Language" 
+                    authors={["Z Tang"]}
+                    pdfLink="https://github.com/PootieT/Metropolis-Hasting-Sentence-Sampling/blob/main/Metropolis_Hasting_Based_Sentence_Interpolation__a_Mixup_in_Natural_Language.pdf"
+                    codeLink="https://github.com/PootieT/Metropolis-Hasting-Sentence-Sampling"
+                    />
+                <Publication 
                     title="Malawi News Classification with Domain-Adapted Multilingual Transformer" 
                     authors={["P Chandra", "Sherry Courington", "S Chennuri", "K Nichols", "L Seoane", "Z Tang"]}
                     pdfLink="https://raw.githubusercontent.com/PootieT/malawi_news_classification/main/Malawi%20News%20Classification.pdf"
@@ -145,6 +163,10 @@ export default class ResearchSpace extends Component {
             <Row className="justify-content-md-center">
             <h4>Patents</h4>  
             </Row>
+              <Publication 
+                    title="A Method to Generate Low-Resource Programming Language Data (pending)" 
+                    authors={["Z Tang","M Agarwal", "A Shypula", "B Wang", "J Chen", "Y Kim"]}
+                    />
               <Publication 
                     title="A method to generate multi-turn dialog data generation (pending)" 
                     authors={["Z Tang", "Z Zeng", "Y Rizk"]}

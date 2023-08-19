@@ -10,13 +10,13 @@ export default class Home extends Component {
         <Jumbotron>
           <Row className="show-grid text-center"> 
             <Col xs={6} sm={6}>
-              <Image src="assets/research-profile.jpg" circle fluid className="space-profile" />
+              <Image src="assets/research-profile-2.jpg" circle fluid className="space-profile" />
             </Col>   
             <Col xs={6} sm={6} style={{textAlign:"left"}}>
               <h1>Zilu Tang (Peter)</h1>
               <h5>/tzee-lu, tongue (Peter)/</h5>
-              <p>Graduate Student, Boston Univeristy</p>
-              <p>Multilingual, low-resource natural langauge processing; Data Augmentation & generation</p>
+              <p>PhD Student, Boston Univeristy</p>
+              <p>Machine reasoning; Multi-lingual, low-resource natural langauge processing (NLP); Neural-symbolic AI;</p>
               <a href="https://scholar.google.com/citations?user=E9g28XEAAAAJ"><Image src="assets/socials/google_scholar.png" circle fluid className="socials-icon"/></a>
               <a href="https://www.linkedin.com/in/peter-tang-83802495/"><Image src="assets/socials/linkedin.png" circle fluid className="socials-icon"/></a>
               <a href="https://github.com/PootieT"><Image src="assets/socials/github.png" circle fluid className="socials-icon"/></a>
@@ -29,18 +29,21 @@ export default class Home extends Component {
           </Row>
           <Row className="show-grid text-center"> 
             <Col xs={12} sm={12} style={{textAlign:"left", paddingTop:"1em"}}>
-              <p>Welcome! Here is my little personal space!</p>
-              <p>I am a Masters' in AI student at Boston University advised by Derry Wijaya. I am interested in a variety of low-resource natural language processing (NLP) tasks.
-                As a guiding principle to my research, I am interested in making the most efficient / clever use of statistical power in pretrained language model as well as
-                symbolic / rule-based human knowledge to improve NLP tasks under resource constraints. I have worked in industrial orchestration / chatbot divisions, machine 
-                translations, general sentence representation learning, and code translation (e.g. Java-Python). More on my research interest <Link to="/research" className="obvious-link"><b>here</b></Link></p>
+              <p>Hello there!</p>
+              <p>I am a PhD student at Boston University advised by Derry Wijaya. I am interested in understanding langauge models from the perspective of data scarce tasks.
+                From low-resource (natural language / programming language) machine translation to symbolic reasoning, I am fascinated by the way humans can generalize over 
+                unseen domains through planning, formation of modular and causal symbolic operations. With said curiosity, I am currently fixated by how language models follow/not follow 
+                such learning pattern and how we can rethink NLP tasks in-light of the difference. Previously, I was a research engineer at IBM Research working on industrial 
+                orchestration for business automation. Throughout my Masters and PhD, I have worked in machine translations, sentence representation learning, code translation
+                /generation (e.g. Java-Python), and NLP for social communications. More on my research interest <Link to="/research" className="obvious-link"><b>here</b></Link></p>
               
               <p>In my spare time, I try to keep up with my gardening hobbies. You will find a lot of them in an individual <b>spaces</b>. If you 
               have similar interest in any of them, or want to build something cool based on them, I am all ears.</p>
               <p>
                 More bio <Link to="/about" className="obvious-link"><b>here</b></Link>, 
                 and contact me <Link to="/connect" className="obvious-link"><b>here</b></Link>. 
-                See resume <a href="https://drive.google.com/file/d/1qXdeSlgQT8ogbOCrzhneyW6Pc5wEnY48/view?usp=sharing"><b> here</b></a>
+                See resume <a href="https://drive.google.com/file/d/1qXdeSlgQT8ogbOCrzhneyW6Pc5wEnY48/view?usp=sharing"><b> here </b></a>
+                and CV <a href="https://drive.google.com/file/d/1UDaT3NQo9Iq-bbpb0iCy6smcvswjW5Qz/view?usp=share_link"><b> here</b></a>
               </p>
             </Col>
           </Row>
@@ -48,8 +51,9 @@ export default class Home extends Component {
         <hr/>
         <Jumbotron>
           <h1>News</h1>
-          <ul>Invited to present <i>"AugCSE"</i> at Boston University AI-Research Seminar (09/2022)</ul>
-          <ul>Our work on <i>"AugCSE: Contrastive Sentence Embedding with Diverse Augmentation"</i> got accepted in AACL 2022! (09/2022)</ul>
+          <ul>Starting my PhD in the fall at Boston University! (09/2023)</ul>
+          <ul>Our work "Effects of #Coronavirus Content Moderation on Misinformation and Anti-Asian Hate on Instagram" got accepted in New Media & Society! (07/2023)</ul><ul/>
+          <ul>Our work on <i>"AugCSE: Contrastive Sentence Embedding with Diverse Augmentation"</i> got accepted in AACL 2022! (09/2022). It is subsequently presented at Boston University AI-Research Seminar (09/2022) and Boston University CISE Graduate Student Workshop (01/2023)</ul>
           <ul>Fresh preprint <a href="https://arxiv.org/abs/2209.03554"><i>"Knowledge-based Template Translation in Low-Resource Setting"</i></a> out <a href="https://sites.google.com/view/cogsci2021-bc-meetup/schedule/informal-presentations?authuser=0">
             on Arxiv!</a> (09/2022)</ul>
           <ul>Started my Masters' Degree at Boston University with <a href="https://www.bu.edu/provost/awards-publications/award-opportunities/lu-lingzi-scholarship/">Lu Lingzi full-ride scholarship</a> + stipend! (09/2021)</ul>

@@ -19,6 +19,15 @@ export default class TechSpace extends Component {
           </Row>
           <Row className="justify-content-md-center">
             <Project
+              name="Metropolis Sentence Interpolation"
+              image="assets/project-metropolis.png"
+              description="Using metropolis algorithm to sample interpolations of two sentences"
+              link="/metropolis">
+              <a href="https://github.com/PootieT/Metropolis-Hasting-Sentence-Sampling" className="obvious-link">Code</a>
+              {"\n"}
+              <a href="https://github.com/PootieT/Metropolis-Hasting-Sentence-Sampling/blob/main/Metropolis_Hasting_Based_Sentence_Interpolation__a_Mixup_in_Natural_Language.pdf" className="obvious-link">Report</a>    
+            </Project>
+            <Project
               name="DJ MoveMixx"
               image="assets/project-dj-move-mixx.jpg"
               description="A microcontroller-enabled glove that is hooked up to Mixx

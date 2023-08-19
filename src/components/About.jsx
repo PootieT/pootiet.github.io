@@ -47,20 +47,19 @@ export default class About extends Component {
               data pre-processing platform (TraceHub) which won best demo paper at AAAI 2020. 
               On my own time, I also collaborate with MIT-IBM Watson AI lab, building 
               neural-symbolic systems in application to natural language processing (NLP). 
-              I am also interested in applying biologically plausible networks to NLP, such 
+              I was also interested in applying biologically plausible networks to NLP, such 
               as associative networks.
               </p>
               <p>
-              As a (thesis-based) masters' student advised by Derry Wijaya and Yoon Kim (MIT), I have 
-              done a wide range of work in low-resource NLP research. I tempered with template 
-              machine translation methods, improving entity accuracy through behavioral changing 
-              rule injections. I worked on improving general sentence embedding space through 
-              diverse (often rule-based) methods. I am currently working on improving program 
-              translation between low-resource programming languages such as COBOL through 
-              conditional generation and finetuning. I am applying to PhD this fall (2022) with
-              the goal of improving low-resource NLP using large language models. See my research
-              statement and publications <Link to="/research" className="obvious-link"><b>here</b></Link>
+              I did my Masters' at BU and is now a PhD student advised by Derry Wijaya. I am fortunate to collaborate with folks
+              at MIT-IBM Watson AI Lab (Jie Chen, Yoon Kim), I have done a wide range of work in low-resource NLP research.
+              See my research statement and publications <Link to="/research" className="obvious-link"><b>here</b></Link>
               </p>
+
+              I am very excited about many different things. I believe you can tell by
+               my website now that I am almost certain to try things that I have not dabbled 
+               in before (including building this website from scratch). If you are excited about the same thing as me, or think there are 
+               things that I should definitely try, reach out!
           </Row>
          </Col>
         </Jumbotron>       
