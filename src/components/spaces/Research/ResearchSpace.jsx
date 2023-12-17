@@ -30,9 +30,9 @@ export default class ResearchSpace extends Component {
               to what degree do models agree with human forms of symbolic learning? How do the two domain differ?
               And what the two systems can learn from each other? 
 
-              To understand such behavior, I work mostly with low-resource tasks, forcing models to work with 
-              smallest amount of data, and observe patterns that may suggest any type of symbolic learning that 
-              humans do. 
+              To understand such behavior, I work mostly with low-resource tasks (in natural language and 
+              programming languages), forcing models to work with smallest amount of data, and observe patterns 
+              that may suggest any type of symbolic learning that humans do. 
             </p>
 
             <Row className="justify-content-md-center">
@@ -41,7 +41,9 @@ export default class ResearchSpace extends Component {
               <Publication 
                   title="Explain-then-Translate: an Analysis on Improving Program Translation with Self-Generated Explanation" 
                   authors={["Z Tang", "M Agarwal", "A Shypula", "B Wang", "D Wijaya", "J Chen", "Y Kim"]}
-                  conference="In Submission"
+                  conference="EMNLP 2023"
+                  codeLink="https://github.com/PootieT/explain-then-translate"
+                  pdfLink="https://arxiv.org/abs/2311.07070"
                    />
               <Publication 
                   title="Effects of #Coronavirus Content Moderation on Misinformation and Anti-Asian Hate on Instagram" 

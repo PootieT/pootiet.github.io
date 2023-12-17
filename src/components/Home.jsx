@@ -16,7 +16,7 @@ export default class Home extends Component {
               <h1>Zilu Tang (Peter)</h1>
               <h5>/tzee-lu, tongue (Peter)/</h5>
               <p>PhD Student, Boston Univeristy</p>
-              <p>Machine reasoning; Multi-lingual, low-resource natural langauge processing (NLP); Neural-symbolic AI;</p>
+              <p>Language model reasoning & explanability; multi-lingual, low-resource natural langauge processing (NLP); code generation; neural-symbolic AI;</p>
               <a href="https://scholar.google.com/citations?user=E9g28XEAAAAJ"><Image src="assets/socials/google_scholar.png" circle fluid className="socials-icon"/></a>
               <a href="https://www.linkedin.com/in/peter-tang-83802495/"><Image src="assets/socials/linkedin.png" circle fluid className="socials-icon"/></a>
               <a href="https://github.com/PootieT"><Image src="assets/socials/github.png" circle fluid className="socials-icon"/></a>
