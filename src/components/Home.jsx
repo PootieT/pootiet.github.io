@@ -51,6 +51,7 @@ export default class Home extends Component {
         <hr/>
         <Jumbotron>
           <h1>News</h1>
+          <ul>Presented <i>"Explain-then-translate: An Analysis on Improving Program Translation with Self-generated Explanations"</i> at EMNLP 2023! (12/2023).</ul>
           <ul>Starting my PhD in the fall at Boston University! (09/2023)</ul>
           <ul>Our work "Effects of #Coronavirus Content Moderation on Misinformation and Anti-Asian Hate on Instagram" got accepted in New Media & Society! (07/2023)</ul><ul/>
           <ul>Our work on <i>"AugCSE: Contrastive Sentence Embedding with Diverse Augmentation"</i> got accepted in AACL 2022! (09/2022). It is subsequently presented at Boston University AI-Research Seminar (09/2022) and Boston University CISE Graduate Student Workshop (01/2023)</ul>
