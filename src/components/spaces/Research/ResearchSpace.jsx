@@ -39,6 +39,12 @@ export default class ResearchSpace extends Component {
               <h4>Publications</h4>  
             </Row>
               <Publication 
+                  title="What Linguistic Features and Languages are Important in LLM Translation?" 
+                  authors={["R Diandaru","L Susanto","Z Tang","A Purwarianti","D Wijaya"]}
+                  conference="Arxiv 2024"
+                  pdfLink="https://arxiv.org/abs/2402.13917"
+                   />
+              <Publication 
                   title="Explain-then-Translate: an Analysis on Improving Program Translation with Self-Generated Explanation" 
                   authors={["Z Tang", "M Agarwal", "A Shypula", "B Wang", "D Wijaya", "J Chen", "Y Kim"]}
                   conference="EMNLP 2023"
