@@ -52,8 +52,14 @@ export default class About extends Component {
               </p>
               <p>
               I did my Masters' at BU and is now a PhD student advised by Derry Wijaya. I am fortunate to collaborate with folks
-              at MIT-IBM Watson AI Lab (Jie Chen, Yoon Kim), I have done a wide range of work in low-resource NLP research.
+              at MIT-IBM Watson AI Lab (Jie Chen, Yoon Kim) on code generation, Apple Machine Translation team (Sarthak Garg, 
+              Rajan Chatterjee) on hallucination mitigation in MT, and folks at BU on interpretability in general.
               See my research statement and publications <Link to="/research" className="obvious-link"><b>here</b></Link>
+              </p>
+              <p>
+              Outside of work, I enjoy all kinds of physical activities. I competed bodybuilding for a bit and I am training with
+              MIT Gymnastics team now. I LOVE cooking (to fuel by physical activities of course). I visit national parks and 
+              snorkel (true fan of birds and fish).
               </p>
 
               I am very excited about many different things. I believe you can tell by

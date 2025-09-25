@@ -29,19 +29,40 @@ export default class ResearchSpace extends Component {
               unseen domain, these models do not work the same way humans do. My interest lies in understanding 
               to what degree do models agree with human forms of symbolic learning? How do the two domain differ?
               And what the two systems can learn from each other? 
-
-              To understand such behavior, I work mostly with low-resource tasks (in natural language and 
-              programming languages), forcing models to work with smallest amount of data, and observe patterns 
-              that may suggest any type of symbolic learning that humans do. 
+            </p>
+            <p>
+              To understand such behavior, I am working with more synthetic data (entity tracking) currently to see how 
+              model might be implementing some basic pre-requisits of reasoning skills. Better understanding of
+              pre-hoc explanations (CoT) allows me to move onto post-hoc explanations, which is where we can pose
+              a lot of interesting questions about faithfulness, whether model have meta-cognition, whether super-
+              human capabilities are possible with LM's parallel and introspective capabilities.
             </p>
 
             <Row className="justify-content-md-center">
               <h4>Publications</h4>  
             </Row>
               <Publication 
+                  title="Is Active Persona Inference Necessary for Aligning Small Models to Personal Preferences?" 
+                  authors={["Z Tang","AF Akyürek","E Akyürek","D Wijaya"]}
+                  conference="EMNLP PALS Workshop 2025"
+                  pdfLink="https://openreview.net/forum?id=eXaXdKp6Iy"
+                   />
+              <Publication 
+                  title="R3: Robust Rubric-Agnostic Reward Models" 
+                  authors={["D Anugraha","Z Tang","LJ Miranda","H Zhao","MR Farhansyah","G Kuwanto","D Wijaya","DI Winata"]}
+                  conference="NeurIPS LLM Evaluation Workshop 2025"
+                  pdfLink="https://arxiv.org/abs/2505.13388"
+                   />
+              <Publication 
+                  title="Mitigating hallucinated translations in large language models with hallucination-focused preference optimization" 
+                  authors={["Z Tang","R Chatterjee","S Garg"]}
+                  conference="NAACL 2025"
+                  pdfLink="https://aclanthology.org/2025.naacl-long.175/"
+                   />
+              <Publication 
                   title="What Linguistic Features and Languages are Important in LLM Translation?" 
                   authors={["R Diandaru","L Susanto","Z Tang","A Purwarianti","D Wijaya"]}
-                  conference="Arxiv 2024"
+                  conference="LREC 2024"
                   pdfLink="https://arxiv.org/abs/2402.13917"
                    />
               <Publication 
@@ -104,6 +125,11 @@ export default class ResearchSpace extends Component {
             <Row className="justify-content-md-center">
             <h4>Presentations & Posters</h4>  
             </Row>
+              <Publication 
+                    title="Mechanistic Understanding of Entity Tracking With Multiple Operations" 
+                    authors={["Z Tang", "Q Zhao", "G Franco","A Poulis", "A Mueller", "D Wijaya","S Schuster", "N Kim"]}
+                    conference="New England Mechanistic Interpretability Workshop (Poster) 2025"
+                    awards="" />
               <Publication 
                     title="Neural Immersion: an Artistic Interface to Electroencephalogram" 
                     authors={["Z Tang", "J Cruz-Garza","E Todd", "A Kopteva", "J Contreras-Vidal"]}

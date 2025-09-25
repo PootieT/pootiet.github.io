@@ -16,7 +16,7 @@ export default class Home extends Component {
               <h1>Zilu Tang (Peter)</h1>
               <h5>/tzee-lu, tongue (Peter)/</h5>
               <p>PhD Student, Boston Univeristy</p>
-              <p>Language model reasoning & explanability; multi-lingual, low-resource natural langauge processing (NLP); code generation; neural-symbolic AI;</p>
+              <p>Language model reasoning; Interpretability; Multi-linguality; Generalization;</p>
               <a href="https://scholar.google.com/citations?user=E9g28XEAAAAJ"><Image src="assets/socials/google_scholar.png" circle fluid className="socials-icon"/></a>
               <a href="https://www.linkedin.com/in/peter-tang-83802495/"><Image src="assets/socials/linkedin.png" circle fluid className="socials-icon"/></a>
               <a href="https://github.com/PootieT"><Image src="assets/socials/github.png" circle fluid className="socials-icon"/></a>
@@ -30,12 +30,13 @@ export default class Home extends Component {
           <Row className="show-grid text-center"> 
             <Col xs={12} sm={12} style={{textAlign:"left", paddingTop:"1em"}}>
               <p>Hello there!</p>
-              <p>I am a PhD student at Boston University advised by Derry Wijaya. I am interested in understanding langauge models from the perspective of data scarce tasks.
-                From low-resource (natural language / programming language) machine translation to symbolic reasoning, I am fascinated by the way humans can generalize over 
-                unseen domains through planning, formation of modular and causal symbolic operations. With said curiosity, I am currently fixated by how language models follow/not follow 
-                such learning pattern and how we can rethink NLP tasks in-light of the difference. Previously, I was a research engineer at IBM Research working on industrial 
-                orchestration for business automation. Throughout my Masters and PhD, I have worked in machine translations, sentence representation learning, code translation
-                /generation (e.g. Java-Python), and NLP for social communications. More on my research interest <Link to="/research" className="obvious-link"><b>here</b></Link></p>
+              <p>I am a PhD student at Boston University advised by Derry Wijaya (Expected graduation 05/2028). I am interested in understanding langauge models and leverage such insights to improve
+                generalizations across tasks or languages. One of the mediums I am particularly fascinated by is natural langauge explanation (NLE) as a tool for interpretability
+                and generalization. Most of my prior works leverage NLEs in some way to improve model performance, from code generation, personalized alignment, to llm-as-judge/
+                reward model. Recently I have been looking more into how models implment basic pre-requisite skills of reasoning (i.e. Entity Tracking). A current problem that 
+                keeps me up at night is how to leverage mechanistic interpretability to improve model generated NLE to be faithful to their internal decision makings. 
+                Previously, I was a research engineer at IBM Research. I did my Masters at BU, and I have interned at MIT-IBM Watson AI Lab and Apple. 
+                More on my research interest <Link to="/research" className="obvious-link"><b>here</b></Link></p>
               
               <p>In my spare time, I try to keep up with my gardening hobbies. You will find a lot of them in an individual <b>spaces</b>. If you 
               have similar interest in any of them, or want to build something cool based on them, I am all ears.</p>
@@ -50,9 +51,16 @@ export default class Home extends Component {
         </Jumbotron>
         <hr/>
         <Jumbotron>
-          <h1>News</h1>
+          <h1>News (last updated 09/2025)</h1>
+          <ul>Our work <a href="https://openreview.net/forum?id=eXaXdKp6Iy"><i>"Is Active Persona Inference Necessary for Aligning Small Models to Personal Preferences?"</i></a> got accepted at PALS Workshop EMNLP 2025! (09/2025).</ul>
+          <ul>Our contribution to <a href="https://sigtyp.github.io/st2025-mrl.html">MRL shared task EMNLP 2025</a> got accepted! Lookout for multilingual physical reasoning dataset "Global PIQA" soon on Arxiv! (09/2025).</ul>
+          <ul>Our work <a href="https://arxiv.org/abs/2505.13388"><i>"R3: Robust Rubric-Agnostic Reward Model"</i></a> got accepted at LLM Evaluation Workshop NeurIPS 2025! (09/2025). Arxiv and follow-ups coming soon!</ul>
+          <ul>Presented <i>"Mechanistic Understanding of Entity Tracking With Multiple Operations"</i> at New England Mechanistic Interpretability (NEMI) Workshop! (08/2025).</ul>
+          <ul>Our internship work with Apple <a href="https://arxiv.org/abs/2501.17295"><i>"Mitigating Hallucinated Translations in Large Language Models with Hallucination-focused Preference Optimization"</i></a> got accepted at NAACL 2025! (01/2025).</ul>
+          <ul>Started my internship with Apple Machine Translation Team under Qin Gao (05/2024).</ul>
           <ul>Presented <i>"Explain-then-translate: An Analysis on Improving Program Translation with Self-generated Explanations"</i> at EMNLP 2023! (12/2023).</ul>
           <ul>Starting my PhD in the fall at Boston University! (09/2023)</ul>
+          <ul>Started my internship with MIT-IBM Watson AI Lab under Jie Chen and Yoon Kim (05/2022).</ul>
           <ul>Our work "Effects of #Coronavirus Content Moderation on Misinformation and Anti-Asian Hate on Instagram" got accepted in New Media & Society! (07/2023)</ul><ul/>
           <ul>Our work on <i>"AugCSE: Contrastive Sentence Embedding with Diverse Augmentation"</i> got accepted in AACL 2022! (09/2022). It is subsequently presented at Boston University AI-Research Seminar (09/2022) and Boston University CISE Graduate Student Workshop (01/2023)</ul>
           <ul>Fresh preprint <a href="https://arxiv.org/abs/2209.03554"><i>"Knowledge-based Template Translation in Low-Resource Setting"</i></a> out <a href="https://sites.google.com/view/cogsci2021-bc-meetup/schedule/informal-presentations?authuser=0">
