@@ -20,38 +20,63 @@ export default class ResearchSpace extends Component {
               With a background in bioengineering, I come from the field 
               of synthetic biology, bioinformatics (microfluidic imaging), and brain machine
               interface. As a research engineer at IBM Research and MIT-IBM Watson 
-              AI lab, I found great importance in adapting existing technologies for low-resource aplications,
-              while working with private datasets, conversational technologies, and planning/automations.
+              AI lab, I worked on industrial conversational systems using classical planning, <a href="https://arxiv.org/abs/2008.11649"><b>classical planning for sentence generation</b></a>, and various <a href="https://ojs.aaai.org/index.php/AAAI/article/view/7087"><b>data science-y prototypes</b></a>.
             </p>  
             <p>
-              Most currently, I've been fascinated by all the investigations into how large langauge
-              models (LLMs) works. Though great at solving association tasks and can seem to generalize over
+              Most currently, I've been fascinated by all the investigations into how language
+              models (LMs) works. Though great at solving association tasks and can seem to generalize over
               unseen domain, these models do not work the same way humans do. My interest lies in understanding 
-              to what degree do models agree with human forms of symbolic learning? How do the two domain differ?
-              And what the two systems can learn from each other? 
+              to what degree do models agree with human in different tasks and what can the two systems learn from each other.
             </p>
             <p>
-              To understand such behavior, I am working with more synthetic data (entity tracking) currently to see how 
-              model might be implementing some basic pre-requisits of reasoning skills. Better understanding of
-              pre-hoc explanations (CoT) allows me to move onto post-hoc explanations, which is where we can pose
-              a lot of interesting questions about faithfulness, whether model have meta-cognition, whether super-
-              human capabilities are possible with LM's parallel and introspective capabilities.
+              Natural language explanations (NLEs) are interesting because they how humans process and pass knowledge to each other.
+              The causal structure provided from explanation allows efficient learning in humans and in models. Humans benefit from 
+              explaining to themselves, which helps recall and generalization. LMs also seem to benefit from self-generated NLE such
+              as the case of <a href="https://aclanthology.org/2023.findings-emnlp.119/"><b>code translation</b></a>. Good explanations
+              also improves <a href="https://openreview.net/forum?id=eXaXdKp6Iy"><b>personalization generalization</b></a>, improve
+              contextual faithfulness, and reduce bias. Other examples benefits include improving data efficiency in training 
+              <a href="https://arxiv.org/abs/2505.13388"><b> reward</b></a> <a href="https://arxiv.org/abs/2510.01146"><b>models</b></a>,
+              improving <a href="https://aclanthology.org/2025.findings-acl.966/"><b>toxicity detection</b></a> by reducing underspecification.
+            </p>
+            <p>
+              We know quality NLEs are important, so I have been thinking about ways to improve them. Recent findings on LM having 
+              <a href="https://arxiv.org/abs/2601.01828"><b> introspective </b></a>
+              capabilities, or being able to induce them through <a href="https://belindal.github.io/introspection/"><b>finetuning</b></a>, is 
+              exciting because it opens up the possibility of improving NLE quality by improving model introspection. Genuine introspection
+              is hard to study in humans because it's hard to do interventions and observe brain internals, but we have access to model
+              internals (aka some sense of ground truth)! If you are interested in this topic, reach out and let's do some science together!
             </p>
 
             <Row className="justify-content-md-center">
               <h4>Publications</h4>  
             </Row>
               <Publication 
+                  title="Do Language Models Track Entities Across State Changes?" 
+                  authors={["Z Tang","Q Zhao","G Franco","D Wijaya","A Mueller","S Schuster","N Kim"]}
+                  conference="ICML 2026"
+                  pdfLink="https://openreview.net/forum?id=PyJ2YOk3sG"
+                  codeLink="https://github.com/PootieT/entity-tracking-mi"
+                   />
+              <Publication 
+                  title="mR3: Multilingual Rubric-Agnostic Reward Reasoning Models" 
+                  authors={["D Anugraha","SY Hung","Z Tang","AES Lee","D Wijaya","DI Winata"]}
+                  conference="ICLR 2026"
+                  pdfLink="https://arxiv.org/abs/2510.01146"
+                  codeLink="https://github.com/rubricreward/mr3"
+                   />
+              <Publication 
                   title="Is Active Persona Inference Necessary for Aligning Small Models to Personal Preferences?" 
                   authors={["Z Tang","AF Akyürek","E Akyürek","D Wijaya"]}
                   conference="EMNLP PALS Workshop 2025"
                   pdfLink="https://openreview.net/forum?id=eXaXdKp6Iy"
+                  codeLink="https://github.com/PootieT/famous-persona"
                    />
               <Publication 
                   title="R3: Robust Rubric-Agnostic Reward Models" 
                   authors={["D Anugraha","Z Tang","LJ Miranda","H Zhao","MR Farhansyah","G Kuwanto","D Wijaya","DI Winata"]}
                   conference="NeurIPS LLM Evaluation Workshop 2025"
                   pdfLink="https://arxiv.org/abs/2505.13388"
+                  codeLink="https://github.com/rubricreward/r3"
                    />
               <Publication 
                   title="Mitigating hallucinated translations in large language models with hallucination-focused preference optimization" 

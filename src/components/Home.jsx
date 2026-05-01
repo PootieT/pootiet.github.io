@@ -16,7 +16,7 @@ export default class Home extends Component {
               <h1>Zilu Tang (Peter)</h1>
               <h5>/tzee-lu, tongue (Peter)/</h5>
               <p>PhD Student, Boston Univeristy</p>
-              <p>Language model reasoning; Interpretability; Multi-linguality; Generalization;</p>
+              <p>NLP; Reasoning; Natural Language Explanations; Interpretability; Multi-linguality; Generalization;</p>
               <a href="https://scholar.google.com/citations?user=E9g28XEAAAAJ"><Image src="assets/socials/google_scholar.png" circle fluid className="socials-icon"/></a>
               <a href="https://www.linkedin.com/in/peter-tang-83802495/"><Image src="assets/socials/linkedin.png" circle fluid className="socials-icon"/></a>
               <a href="https://github.com/PootieT"><Image src="assets/socials/github.png" circle fluid className="socials-icon"/></a>
@@ -30,11 +30,15 @@ export default class Home extends Component {
           <Row className="show-grid text-center"> 
             <Col xs={12} sm={12} style={{textAlign:"left", paddingTop:"1em"}}>
               <p>Hello there!</p>
-              <p>I am a PhD student at Boston University advised by Derry Wijaya (Expected graduation 05/2028). I am interested in understanding langauge models and leverage such insights to improve
-                generalizations across tasks or languages. One of the mediums I am particularly fascinated by is natural langauge explanation (NLE) as a tool for interpretability
-                and generalization. Most of my prior works leverage NLEs in some way to improve model performance, from code generation, personalized alignment, to llm-as-judge/
-                reward model. Recently I have been looking more into how models implment basic pre-requisite skills of reasoning (i.e. Entity Tracking). A current problem that 
-                keeps me up at night is how to leverage mechanistic interpretability to improve model generated NLE to be faithful to their internal decision makings. 
+              <p>I am a PhD student at Boston University advised by Derry Wijaya (Expected graduation 05/2028). I am interested in leveraging cognitively intuitive methods to improve model generalization. 
+                Currently I am particularly fascinated by leveraging natural language explanation (NLE) as a tool for interpretability
+                and generalization. Most of my prior works leverage NLEs in some way to improve model performance, from <a href="https://aclanthology.org/2023.findings-emnlp.119/"><b>code generation</b></a>, 
+                <a href="https://openreview.net/forum?id=eXaXdKp6Iy"><b> personalized alignment</b></a>, to <a href="https://arxiv.org/abs/2505.13388"><b>reward</b></a> <a href="https://arxiv.org/abs/2510.01146"><b>models</b></a>. 
+                An emerging theme of questions from these work that I try to answer is whether models can reliably recover and verbalize useful causal structures as NLEs and improve model robustness. 
+                Recently I have been looking more into how models implment basic pre-requisite skills of reasoning (i.e. <a href="https://openreview.net/forum?id=PyJ2YOk3sG"><b>entity tracking</b></a>), 
+                and how to attribute failures to model mechanisms. 
+                A current problem that keeps me up at night is how to leverage mechanistic interpretability to improve model generated NLE to be faithful to their internal decision makings (introspections perhaps?). 
+                But what are the bounds of introspection and what does it take for them to generalize? 
                 Previously, I was a research engineer at IBM Research. I did my Masters at BU, and I have interned at MIT-IBM Watson AI Lab and Apple. 
                 More on my research interest <Link to="/research" className="obvious-link"><b>here</b></Link></p>
               
@@ -51,14 +55,18 @@ export default class Home extends Component {
         </Jumbotron>
         <hr/>
         <Jumbotron>
-          <h1>News (last updated 09/2025)</h1>
+          <h1>News (last updated 05/2026)</h1>
+          <ul>Joining Microsoft summer 2026 as an applied research intern! Hit me up in Seattle!</ul>
+          <ul>Our work <a href="https://openreview.net/forum?id=PyJ2YOk3sG"><i>"Do Language Models Track Entities Across State Changes?"</i></a> got accepted at ICML 2026! (04/2026). Can't wait to eat at all the Korean spots!</ul>
+          <ul>Our work <a href="https://arxiv.org/abs/2510.01146"><i>"mR3: Multilingual Rubric-Agnostic Reward Reasoning Models"</i></a> got accepted at ICLR 2026! (01/2026).</ul>
+          <ul>Joint work with my wife resulted in a human child Rumi Yuling Tang! (12/2025). </ul>
           <ul>Our work <a href="https://openreview.net/forum?id=eXaXdKp6Iy"><i>"Is Active Persona Inference Necessary for Aligning Small Models to Personal Preferences?"</i></a> got accepted at PALS Workshop EMNLP 2025! (09/2025).</ul>
-          <ul>Our contribution to <a href="https://sigtyp.github.io/st2025-mrl.html">MRL shared task EMNLP 2025</a> got accepted! Lookout for multilingual physical reasoning dataset "Global PIQA" soon on Arxiv! (09/2025).</ul>
+          <ul>Our contribution to <a href="https://sigtyp.github.io/st2025-mrl.html">MRL shared task EMNLP 2025</a> got accepted! Lookout for multilingual physical reasoning dataset <a href="https://arxiv.org/abs/2510.24081"><b>Global PIQA</b></a>! (09/2025).</ul>
           <ul>Our work <a href="https://arxiv.org/abs/2505.13388"><i>"R3: Robust Rubric-Agnostic Reward Model"</i></a> got accepted at LLM Evaluation Workshop NeurIPS 2025! (09/2025). Arxiv and follow-ups coming soon!</ul>
           <ul>Presented <i>"Mechanistic Understanding of Entity Tracking With Multiple Operations"</i> at New England Mechanistic Interpretability (NEMI) Workshop! (08/2025).</ul>
           <ul>Our internship work with Apple <a href="https://arxiv.org/abs/2501.17295"><i>"Mitigating Hallucinated Translations in Large Language Models with Hallucination-focused Preference Optimization"</i></a> got accepted at NAACL 2025! (01/2025).</ul>
           <ul>Started my internship with Apple Machine Translation Team under Qin Gao (05/2024).</ul>
-          <ul>Presented <i>"Explain-then-translate: An Analysis on Improving Program Translation with Self-generated Explanations"</i> at EMNLP 2023! (12/2023).</ul>
+          <ul>Presented <a href="https://aclanthology.org/2023.findings-emnlp.119/"><i>"Explain-then-translate: An Analysis on Improving Program Translation with Self-generated Explanations"</i></a> at EMNLP 2023! (12/2023).</ul>
           <ul>Starting my PhD in the fall at Boston University! (09/2023)</ul>
           <ul>Started my internship with MIT-IBM Watson AI Lab under Jie Chen and Yoon Kim (05/2022).</ul>
           <ul>Our work "Effects of #Coronavirus Content Moderation on Misinformation and Anti-Asian Hate on Instagram" got accepted in New Media & Society! (07/2023)</ul><ul/>
