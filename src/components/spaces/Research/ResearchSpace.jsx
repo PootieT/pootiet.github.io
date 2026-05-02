@@ -29,24 +29,41 @@ export default class ResearchSpace extends Component {
               to what degree do models agree with human in different tasks and what can the two systems learn from each other.
             </p>
             <p>
-              Natural language explanations (NLEs) are interesting because they how humans process and pass knowledge to each other.
-              The causal structure provided from explanation allows efficient learning in humans and in models. Humans benefit from 
-              explaining to themselves, which helps recall and generalization. LMs also seem to benefit from self-generated NLE such
+              Natural language explanations (NLEs) are interesting because they are how humans process and pass knowledge to each other.
+              The causal structures provided by explanations allow efficient learning in humans and models. Humans benefit from 
+              explaining to themselves, which helps recall and generalization. LMs also seem to benefit from self-generated NLEs such
               as the case of <a href="https://aclanthology.org/2023.findings-emnlp.119/"><b>code translation</b></a>. Good explanations
-              also improves <a href="https://openreview.net/forum?id=eXaXdKp6Iy"><b>personalization generalization</b></a>, improve
-              contextual faithfulness, and reduce bias. Other examples benefits include improving data efficiency in training 
-              <a href="https://arxiv.org/abs/2505.13388"><b> reward</b></a> <a href="https://arxiv.org/abs/2510.01146"><b>models</b></a>,
+              also improve <a href="https://openreview.net/forum?id=eXaXdKp6Iy"><b>personalization generalization</b></a>, improve
+              contextual faithfulness, and reduce bias. Other benefits of NLEs include improving data efficiency in training 
+              <a href="https://arxiv.org/abs/2505.13388"><b> reward</b></a> <a href="https://arxiv.org/abs/2510.01146"><b>models</b></a>, and
               improving <a href="https://aclanthology.org/2025.findings-acl.966/"><b>toxicity detection</b></a> by reducing underspecification.
             </p>
             <p>
-              We know quality NLEs are important, so I have been thinking about ways to improve them. Recent findings on LM having 
+              Quality NLEs are important, but they are not so easy to improve. Recent findings on LM having 
               <a href="https://arxiv.org/abs/2601.01828"><b> introspective </b></a>
               capabilities, or being able to induce them through <a href="https://belindal.github.io/introspection/"><b>finetuning</b></a>, is 
               exciting because it opens up the possibility of improving NLE quality by improving model introspection. Genuine introspection
               is hard to study in humans because it's hard to do interventions and observe brain internals, but we have access to model
-              internals (aka some sense of ground truth)! If you are interested in this topic, reach out and let's do some science together!
+              internals (aka some sense of ground truth)! Hence studying introspection allow us to not only improve models but also potentially 
+              learn something cool about human cognition!
             </p>
-
+            <p>
+              I am also interested in multilinguality in LMs, both in tasks that are language-agnostic 
+              and those that should not be. My internship work with Apple in particular showed 
+              that <a href="https://aclanthology.org/2025.naacl-long.175/"><b>translation hallucinations</b></a> in LM is a somewhat of a language-agnostic phenomenon
+              that can be mitigated significantly by preference finetuning (perhaps the update is very localized and low-rank?). In general, mechanistic insights 
+              can help us understand a lot about languages themselves, and perhaps build efficient compression of multilingual knowledge. 
+              One little fun <a href="https://aclanthology.org/2024.tdle-1.4/"><b>study</b></a> we did in this direction was testing which of the languages unseen during 
+              training can LMs translate the best?
+              At the same time, language-specific tasks are also important because many require culturally/regionally-specific 
+              knowledge that should be preserved in the age of AI. Datasets such as <a href="https://arxiv.org/abs/2510.24081"><b>Global PIQA</b></a>, 
+              or <a href="https://aclanthology.org/2025.findings-acl.966/"><b>Indonesian tweet toxicity and polarization</b></a> data aim to address this issue.
+              In this direction, I am excited to explore methods to close reasoning gaps in multilingual performances, and scientific insights of language representations
+              in LMs.
+            </p>
+            <p>
+              If you are interested in any of these topics, reach out and let's do some science together!
+            </p>
             <Row className="justify-content-md-center">
               <h4>Publications</h4>  
             </Row>
