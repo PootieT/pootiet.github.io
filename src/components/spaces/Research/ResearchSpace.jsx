@@ -71,7 +71,7 @@ export default class ResearchSpace extends Component {
                   title="Do Language Models Track Entities Across State Changes?" 
                   authors={["Z Tang","Q Zhao","G Franco","D Wijaya","A Mueller","S Schuster","N Kim"]}
                   conference="ICML 2026"
-                  pdfLink="https://openreview.net/forum?id=PyJ2YOk3sG"
+                  pdfLink="https://arxiv.org/abs/2605.30233v1"
                   codeLink="https://github.com/PootieT/entity-tracking-mi"
                    />
               <Publication 

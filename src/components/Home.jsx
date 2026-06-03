@@ -58,7 +58,7 @@ export default class Home extends Component {
         <Jumbotron>
           <h1>News (last updated 05/2026)</h1>
           <ul>Joining Microsoft summer 2026 as an applied research intern! Hit me up in Seattle!</ul>
-          <ul>Our work <a href="https://openreview.net/forum?id=PyJ2YOk3sG"><i>"Do Language Models Track Entities Across State Changes?"</i></a> got accepted at ICML 2026! (04/2026). Can't wait to eat at all the Korean spots!</ul>
+          <ul>Our work <a href="https://arxiv.org/abs/2605.30233v1"><i>"Do Language Models Track Entities Across State Changes?"</i></a> got accepted at ICML 2026! (04/2026). Can't wait to eat at all the Korean spots!</ul>
           <ul>Our work <a href="https://arxiv.org/abs/2510.01146"><i>"mR3: Multilingual Rubric-Agnostic Reward Reasoning Models"</i></a> got accepted at ICLR 2026! (01/2026).</ul>
           <ul>Joint work with my wife resulted in a human child Rumi Yuling Tang! (12/2025). </ul>
           <ul>Our work <a href="https://openreview.net/forum?id=eXaXdKp6Iy"><i>"Is Active Persona Inference Necessary for Aligning Small Models to Personal Preferences?"</i></a> got accepted at PALS Workshop EMNLP 2025! (09/2025).</ul>
