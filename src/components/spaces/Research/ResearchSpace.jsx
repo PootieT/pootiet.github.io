@@ -68,6 +68,13 @@ export default class ResearchSpace extends Component {
               <h4>Publications</h4>  
             </Row>
               <Publication 
+                  title="Interventional Training Reduces Causal Bypass in In-Context Introspection" 
+                  authors={["Z Tang","J Kim","K Sahin","D Atkinson","A Mueller","D Wijaya"]}
+                  conference="Arxiv"
+                  pdfLink="https://arxiv.org/abs/2605.30233v1"
+                  codeLink="https://github.com/PootieT/low-level-introspection"
+                   />
+              <Publication 
                   title="Do Language Models Track Entities Across State Changes?" 
                   authors={["Z Tang","Q Zhao","G Franco","D Wijaya","A Mueller","S Schuster","N Kim"]}
                   conference="ICML 2026"
@@ -167,6 +174,12 @@ export default class ResearchSpace extends Component {
             <Row className="justify-content-md-center">
             <h4>Presentations & Posters</h4>  
             </Row>
+              <Publication 
+                    title="Training In-Context Introspection Without Causal Bypass" 
+                    authors={["Z Tang","J Kim","K Sahin","D Atkinson","A Mueller","D Wijaya"]}
+                    conference="New England Mechanistic Interpretability Workshop (Poster) 2026"
+                    pdfLink="https://docs.google.com/presentation/d/1EAhlh0Qm3ZBl2vhhsSdo09ALcLaZ6HWZ-HIZw1rqVCE/edit?usp=share_link"
+                    awards="" />
               <Publication 
                     title="Mechanistic Understanding of Entity Tracking With Multiple Operations" 
                     authors={["Z Tang", "Q Zhao", "G Franco","A Poulis", "A Mueller", "D Wijaya","S Schuster", "N Kim"]}
